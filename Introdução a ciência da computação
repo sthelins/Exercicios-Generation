@@ -1,0 +1,103 @@
+Introdução a ciência da computação
+
+---------------------------------------------------------------------------------------------------------
+trabalhar mentalidade de crescimento 
+---------------------------------------------------------------------------------------------------------
+habilidades comunicação
+---------------------------------------------------------------------------------------------------------
+NOCÕES BÁSICAS REFERENTE AO FUNCIONAMENTO DA INTERNET 
+
+	- INTERNET ---> Internationl + net(rede)
+	     |--> Rede Internacional de comunicação entre dispostivos, que recebe e entrega dados em velocidade extremamente rápidas.(utilizando protocolos TCP/IP e HTPP)
+
+	     |--> Forma física (cabos, roteadores, switches, pcs, celulares, postes, placas de rede, etc...
+
+	     |--> é a parte física para que toda a comunicação aconteça.
+
+	     |--> consumimos diariamente a WEB
+
+	- WEB (www) ---> hipermídia, videos, páginas html, mensagens, imagens, links, etc...
+    	     |--> a parte lógica e digital
+
+
+--------------------------------------------------------------------------------------------------------
+O QUE É UM PROTOCOLO
+	   |--> é um sistema de regras que define como o dado é trafegado dentro ou entre computadores. Comunicações entre dispositivos requer que estes concordem com o formato do dado que estiver sendo trafegado. O conjunto de regras que define esse formato é chamado de protocolo.
+
+---------------------------------------------------------------------------------------------------------
+PROTOCOLO TCP/IP 
+	   |--> é um conjunto de protocolos de comunicação. Tem por objetivo padronizar todas as comunicações de rede, principalmente as comunicações na web. O protocolo que define a Internet.
+
+	TCP
+	   |--> ele faz a comunicação entre máquinas, mas pra isso ele precisa se direcionar, então usa o IP.
+
+	IP
+	   |--> é o endereço de cada máquina
+
+
+
+---------------------------------------------------------------------------------------------------------
+PROTOCOLO HTTP
+	   |--> Protocolo de Tranferência de Hipertexto
+
+ 	   |--> é um protocolo que permite 
+
+	   |--> para nós é um nome, mas para a máquina é número 
+		|-->usa o DNS - DOMAIN NAME SYSTEM - (ele transforma o que voçê digitou, carrega em um servidor específico e ele consegue saber qual IP é e vice e versa)
+
+	   |--> solicitar e receber
+
+	HTTPS - uma versão do protocolo criptografado, geralmente utilizado em transações bancárias. Ao usar o HTTPS, um cadeado é exibido no Navegador para indicar que a conexaão é segura.
+
+
+--------------------------------------------------------------------------------------------------------
+MÉTODOS HTTP - VERBOS
+
+	GET
+	  |--> solicita a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados. 
+ex: Consultar um registro no Banco de Dados.
+
+
+	POST
+	  |--> submete uma entidade a um recurso específico para o servidor. 
+ex: Inserir um novo registro no Banco de Dados.
+
+
+	PUT
+          |--> substitui todas as atuais representações do recurso de destino pela carga de dados da requisição. 
+ex: Atualizar os atributos de um registro no Banco de Dados.
+
+
+	DELETE 
+	  |--> remove um recurso específico. 
+ex: apagar um registro no Banco de Dados.
+--------------------------------------------------------------------------------------------------------
+MODELO
+
+
+Aplicação(HTTP) --> Transporte(TCP) --> Internet(IP) --> Rede(ARP) ------->   Camada
+                                                                              Física
+Aplicação(HTTP) <-- Transporte(TCP) <-- Internet(IP) <-- Rede(ARP) <-------  (Ethernet)
+
+
+ARP --> endereço mac físico de toda placa de rede
+
+	CAMADA DE APLICAÇÃO -- nesta camada encontra-se todos os protocolos de serviço
+
+
+
+---------------------------------------------------------------------------------------------------------
+DIFERENÇA ENTRE CLIENTE E SERVIDOR
+
+	CLIENTE -- O cliente é qualquer ferramenta que age em nome do usuário. Essa função é predominantemente realizada pelo navegador web, salvo algumas poucas exceções, são programas usados por pessoas Desenvolvedoras Web para testar as suas aplicações (ex: Postman)
+
+			|				|
+	REQUEST         |				|  RESPONSE
+			|				|
+			
+
+
+	SERVIDOR -- é a "máquina" que serve o documento requisitado pelo usuário através do eNdereço www. Um servidor apresenta virtualmente apenas como uma máquina, porém ele pode ser uma coleção de servidores dividindo a carga ou um programa complexo que acessa outros servidores gerando toda ou parte do documento solicitado.
+
+
+---------------------------------------------------------------------------------------------------------
