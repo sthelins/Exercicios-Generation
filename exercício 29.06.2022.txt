@@ -1,0 +1,71 @@
+1. O QUE SÃO MÉTODOS HTTP?
+Métodos são requisições responsáveis por indicar a ação a ser 
+executada para um dado recurso.
+
+---------------------------------------------------------
+2. QUAIS SÃO OS MÉTODOS HTTP MAIS UTILIZADOS ATUALMENTE?
+Os mais utilizados são GET, POST, PUT e DELETE
+
+--------------------------------------------------------
+3. QUAIS SÃO OS 2 PRINCIPAIS MÉTODOS DO HTTP. QUAL É A 
+DIFERENÇA ENTRE ELES?
+GET e POST. O GET é para requisitar algum dado e o POST é 
+para inserir algum dado.
+
+---------------------------------------------------------
+4. O QUE SÃO REQUISIÇÕES HTTP. QUAIS OS TIPOS?
+São mensagens do cliente ao servidor. Tem GET, POST, PUT, 
+DELETE, HEAD, CONNECT, OPTIONS, TRACE E PATCH
+
+---------------------------------------------------------
+5. COMO FUNCIONA UMA REQUISIÇÃO?
+É um pedido que o cliente realizada ao servidor. A estrutura
+da requisição é: 1. uma linha inicial que descreve a
+requisição; 2. um conjunto opcional de cabeçalhos HTTP; 3.
+uma linha em branco; 4. um corpo contendo dados associados a
+requisição.
+
+---------------------------------------------------------
+6. O QUE É O MÉTODO GET?
+É a requisão de algum dado.
+
+---------------------------------------------------------
+7. QUAL É O PROTOCOLO DE INTERNET PARA TRANSFÊRENCIA SEGURA,
+COMO USO DE CERTIFICADO DIGITAL, UTILIZADO EM SITES DE 
+COMPRAS ELETRÔNICAS?
+O protocolo HTTPS
+
+---------------------------------------------------------
+8. QUAIS OS PRINCIPAIS MÉTODOS DE UMA REQUISIÇÃO REST?
+Um verbo ou método HTTP; um header e um path.
+
+---------------------------------------------------------
+9. QUAL A DIFERENÇA ENTRE IPv4 E IPv6?
+ipv4 é um protocolo de internet que possui endereços no 
+padrão 32 bits e o ipv6 é uma versão que contém 128 bits
+
+
+
+----------------------------------------------------------
+10. FAÇA UM RESUMO SOBRE OS SEGUINTES PROTOCOLOS: http,
+tcp, ip, udp, smtp e ftp.
+
+HTTP --> é o protocolo de tranferência de hipertexto
+que nos permite acessar conteúdos na web atráves do DNS.
+
+TCP --> protocolo responsavel por conferir se os dados chegam
+corretamente e identifica o IP certo.
+
+IP --> é o número da máquina
+
+UDP --> O protocolo de datagramas do usuário (UDP) opera sobre o protocolo da Internet (IP) para transmitir datagramas em uma rede.
+Ele oferece números de porta.
+
+SMPT --> protocolo de tranferência de email que permite que eles
+sejam entregues.
+
+FTP --> um protocolo que permite a troca de arquivos entre dois computadores conectados à internet.
+
+
+
+
